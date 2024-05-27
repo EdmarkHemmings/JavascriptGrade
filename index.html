@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grade Average Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<style>
+    body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#averageOutput {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+</style>
+<body>
+    <h1>Grade Average Calculator</h1>
+    <div class="container">
+        <label for="grade1">Web system and Technology:</label>
+        <input type="number" id="grade1">
+        <br>
+        <label for="grade2">NSTP 2:</label>
+        <input type="number" id="grade2">
+        <br>
+        <label for="grade3">GNED 03:</label>
+        <input type="number" id="grade3">
+        <br>
+        <label for="grade4">DCIT 23:</label>
+        <input type="number" id="grade4">
+        <br>
+        <label for="grade5">GNED 06:</label>
+        <input type="number" id="grade5">
+        <br>
+        <button id="calculateButton">Calculate Average</button>
+        <p id="averageOutput"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
